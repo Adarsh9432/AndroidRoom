@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/mainLayout_padding"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tv_txt_login_page"
+            android:textColor="@color/tv_loginColor"
+            android:textSize="@dimen/tv_txtSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_emailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/et_emailHint"
+            android:textSize="@dimen/et_txtSize" />
+
+
+        <EditText
+            android:id="@+id/et_passwordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="Enter your password"
+            android:textSize="@dimen/et_txtSize" />
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:text="@string/btn_txt_login"
+            android:background="@drawable/button_background"
+            android:textSize="@dimen/btn_txtSize" />
+
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:text="@string/btn_txt_signup"
+            android:background="@drawable/button_background"
+            android:textSize="@dimen/btn_txtSize" />
+    </LinearLayout>
+
+</RelativeLayout>

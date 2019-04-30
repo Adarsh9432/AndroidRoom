@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/signup_layoutPadding"
+    tools:context=".Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_signup_page"
+            android:textSize="@dimen/tv_signup_size"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/tv_signup_color"
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_name"
+            android:textSize="@dimen/et_txtSize"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:digits="@string/characters"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:backgroundTint="@color/tv_signup_color"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_email"
+            android:textSize="@dimen/et_txtSize"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:backgroundTint="@color/tv_signup_color"
+            />
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_password"
+            android:textSize="@dimen/et_txtSize"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:backgroundTint="@color/tv_signup_color"
+            />
+
+
+
+        <Button
+            android:id="@+id/signup_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/et_marginTop"
+            android:text="@string/btn_text"
+            android:textSize="@dimen/btn_txtSize_signupPage"
+            android:enabled="false"
+            android:background="@drawable/button_background"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

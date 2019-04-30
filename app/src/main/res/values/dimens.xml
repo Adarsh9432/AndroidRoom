@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_txtSize">20sp</dimen>
+    <dimen name="tv_txtSize">30sp</dimen>
+    <dimen name="mainLayout_padding">20dp</dimen>
+
+    <dimen name="tv_signup_size">30sp</dimen>
+        <dimen name="btn_txtSize_signupPage">25sp</dimen>
+        <dimen name="marginTop_tvDelete">10dp</dimen>
+        <dimen name="marginTop_tvLogout">50dp</dimen>
+        <dimen name="btn_edit_marginRight">10dp</dimen>
+        <dimen name="btn_update_marginLeft">10dp</dimen>
+        <dimen name="signup_layoutPadding">20dp</dimen>
+        <dimen name="login_layoutPadding">20dp</dimen>
+        <dimen name="showuserdetails_layoutPadding">20dp</dimen>
+        <dimen name="btn_zero_width">0dp</dimen>
+    <dimen name="et_marginTop">20dp</dimen>
+    <dimen name="et_txtSize">20sp</dimen>
+
+
+</resources>

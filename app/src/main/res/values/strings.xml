@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AndroidRoom</string>
+    <string name="et_emailHint">Enter your email</string>
+    <string name="tv_txt_login_page">LOGIN PAGE</string>
+    <string name="btn_txt_login">LOGIN</string>
+    <string name="btn_txt_signup">SIGNUP</string>
+
+
+        <string name="tv_signup_page">SIGNUP PAGE</string>
+        <string name="btn_text">Submit</string>
+        <string name="tv_login">LOGIN PAGE</string>
+        <string name="btn_text_login">LOGIN</string>
+        <string name="btn_text_signup">SIGNUP</string>
+        <string name="tv_logout">LOGOUT</string>
+        <string name="tv_delete_account">DELETE ACCOUNT</string>
+        <string name="characters">abcdefghijklmnopqrstuvwxyzA BCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+        <string name="email_regex">[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+</string>
+        <string name="password_regex">^(?=.*[A-Z])(?=.*[@_.]).*$</string>
+        <string name="et_name">Name</string>
+        <string name="et_email">Email</string>
+        <string name="et_password">Password</string>
+        <string name="et_email_hint">Enter your Email</string>
+        <string name="et_password_hint">Enter your Password</string>
+        <string name="btn_editText">EDIT</string>
+    <string name="btn_textupdate">UPDATE</string>
+
+</resources>
